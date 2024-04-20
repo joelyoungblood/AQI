@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46036FB82BD4434200CB812C /* SecondDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46036FB72BD4434200CB812C /* SecondDataCell.swift */; };
+		4664D8DE2BD2B21700801B9E /* AQIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664D8DD2BD2B21700801B9E /* AQIViewModel.swift */; };
+		4677E2B12BD12ADA00E820B8 /* AQIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4677E2B02BD12ADA00E820B8 /* AQIViewController.swift */; };
+		4677E2B52BD12D8000E820B8 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4677E2B42BD12D8000E820B8 /* LocationManager.swift */; };
+		4677E2B82BD13BEB00E820B8 /* UITableView+ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4677E2B72BD13BEB00E820B8 /* UITableView+ReusableView.swift */; };
+		4677E2BA2BD150A500E820B8 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4677E2B92BD150A500E820B8 /* Network.swift */; };
+		4677E2BF2BD162FB00E820B8 /* ResponseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4677E2BE2BD162FB00E820B8 /* ResponseObject.swift */; };
+		4677E2C12BD1639300E820B8 /* AirQualityComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4677E2C02BD1639300E820B8 /* AirQualityComponents.swift */; };
+		4677E2C32BD16A7D00E820B8 /* ResponseCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4677E2C22BD16A7D00E820B8 /* ResponseCoordinates.swift */; };
+		4677E2C52BD16C1200E820B8 /* ResponseArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4677E2C42BD16C1200E820B8 /* ResponseArray.swift */; };
+		4677E2C72BD16CFD00E820B8 /* AQIHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4677E2C62BD16CFD00E820B8 /* AQIHolder.swift */; };
 		46A20A2B2BD1252900C85D50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A20A2A2BD1252900C85D50 /* AppDelegate.swift */; };
-		46A20A2D2BD1252900C85D50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A20A2C2BD1252900C85D50 /* SceneDelegate.swift */; };
-		46A20A2F2BD1252900C85D50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A20A2E2BD1252900C85D50 /* ViewController.swift */; };
-		46A20A322BD1252900C85D50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A20A302BD1252900C85D50 /* Main.storyboard */; };
 		46A20A342BD1252A00C85D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A20A332BD1252A00C85D50 /* Assets.xcassets */; };
 		46A20A372BD1252A00C85D50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A20A352BD1252A00C85D50 /* LaunchScreen.storyboard */; };
+		46B9DB4A2BD3F43B009768D7 /* AQIHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B9DB492BD3F43B009768D7 /* AQIHeaderCell.swift */; };
+		46B9DB4C2BD3F66D009768D7 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B9DB4B2BD3F66D009768D7 /* UIColor.swift */; };
+		46B9DB4E2BD40148009768D7 /* FirstDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B9DB4D2BD40148009768D7 /* FirstDataCell.swift */; };
+		46B9DB512BD4149C009768D7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 46B9DB502BD4149C009768D7 /* SnapKit */; };
+		46B9DB532BD4149C009768D7 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 46B9DB522BD4149C009768D7 /* SnapKit-Dynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46036FB72BD4434200CB812C /* SecondDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondDataCell.swift; sourceTree = "<group>"; };
+		4664D8DD2BD2B21700801B9E /* AQIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQIViewModel.swift; sourceTree = "<group>"; };
+		4677E2B02BD12ADA00E820B8 /* AQIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQIViewController.swift; sourceTree = "<group>"; };
+		4677E2B42BD12D8000E820B8 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		4677E2B72BD13BEB00E820B8 /* UITableView+ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ReusableView.swift"; sourceTree = "<group>"; };
+		4677E2B92BD150A500E820B8 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		4677E2BE2BD162FB00E820B8 /* ResponseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseObject.swift; sourceTree = "<group>"; };
+		4677E2C02BD1639300E820B8 /* AirQualityComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityComponents.swift; sourceTree = "<group>"; };
+		4677E2C22BD16A7D00E820B8 /* ResponseCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseCoordinates.swift; sourceTree = "<group>"; };
+		4677E2C42BD16C1200E820B8 /* ResponseArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseArray.swift; sourceTree = "<group>"; };
+		4677E2C62BD16CFD00E820B8 /* AQIHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQIHolder.swift; sourceTree = "<group>"; };
 		46A20A272BD1252900C85D50 /* AQI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AQI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A20A2A2BD1252900C85D50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		46A20A2C2BD1252900C85D50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		46A20A2E2BD1252900C85D50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		46A20A312BD1252900C85D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46A20A332BD1252A00C85D50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46A20A362BD1252A00C85D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46A20A382BD1252A00C85D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B9DB492BD3F43B009768D7 /* AQIHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQIHeaderCell.swift; sourceTree = "<group>"; };
+		46B9DB4B2BD3F66D009768D7 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		46B9DB4D2BD40148009768D7 /* FirstDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDataCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +55,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B9DB512BD4149C009768D7 /* SnapKit in Frameworks */,
+				46B9DB532BD4149C009768D7 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46036FB62BD43C8C00CB812C /* Location Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4677E2B42BD12D8000E820B8 /* LocationManager.swift */,
+			);
+			path = "Location Manager";
+			sourceTree = "<group>";
+		};
+		4677E2B22BD12BEF00E820B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4677E2B02BD12ADA00E820B8 /* AQIViewController.swift */,
+				4664D8DD2BD2B21700801B9E /* AQIViewModel.swift */,
+				46B9DB492BD3F43B009768D7 /* AQIHeaderCell.swift */,
+				46B9DB4D2BD40148009768D7 /* FirstDataCell.swift */,
+				46036FB72BD4434200CB812C /* SecondDataCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4677E2B32BD12BFC00E820B8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				46A20A2A2BD1252900C85D50 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4677E2B62BD13BBA00E820B8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4677E2B72BD13BEB00E820B8 /* UITableView+ReusableView.swift */,
+				46B9DB4B2BD3F66D009768D7 /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4677E2BB2BD15E0F00E820B8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4677E2B92BD150A500E820B8 /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4677E2C82BD16D6900E820B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4677E2BE2BD162FB00E820B8 /* ResponseObject.swift */,
+				4677E2C22BD16A7D00E820B8 /* ResponseCoordinates.swift */,
+				4677E2C42BD16C1200E820B8 /* ResponseArray.swift */,
+				4677E2C62BD16CFD00E820B8 /* AQIHolder.swift */,
+				4677E2C02BD1639300E820B8 /* AirQualityComponents.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		46A20A1E2BD1252900C85D50 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +139,12 @@
 		46A20A292BD1252900C85D50 /* AQI */ = {
 			isa = PBXGroup;
 			children = (
-				46A20A2A2BD1252900C85D50 /* AppDelegate.swift */,
-				46A20A2C2BD1252900C85D50 /* SceneDelegate.swift */,
-				46A20A2E2BD1252900C85D50 /* ViewController.swift */,
-				46A20A302BD1252900C85D50 /* Main.storyboard */,
+				4677E2B32BD12BFC00E820B8 /* App */,
+				4677E2B22BD12BEF00E820B8 /* Controllers */,
+				4677E2C82BD16D6900E820B8 /* Models */,
+				46036FB62BD43C8C00CB812C /* Location Manager */,
+				4677E2BB2BD15E0F00E820B8 /* Network */,
+				4677E2B62BD13BBA00E820B8 /* Extensions */,
 				46A20A332BD1252A00C85D50 /* Assets.xcassets */,
 				46A20A352BD1252A00C85D50 /* LaunchScreen.storyboard */,
 				46A20A382BD1252A00C85D50 /* Info.plist */,
@@ -83,6 +168,10 @@
 			dependencies = (
 			);
 			name = AQI;
+			packageProductDependencies = (
+				46B9DB502BD4149C009768D7 /* SnapKit */,
+				46B9DB522BD4149C009768D7 /* SnapKit-Dynamic */,
+			);
 			productName = AQI;
 			productReference = 46A20A272BD1252900C85D50 /* AQI.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +200,9 @@
 				Base,
 			);
 			mainGroup = 46A20A1E2BD1252900C85D50;
+			packageReferences = (
+				46B9DB4F2BD4149C009768D7 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 46A20A282BD1252900C85D50 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +219,6 @@
 			files = (
 				46A20A372BD1252A00C85D50 /* LaunchScreen.storyboard in Resources */,
 				46A20A342BD1252A00C85D50 /* Assets.xcassets in Resources */,
-				46A20A322BD1252900C85D50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +229,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46A20A2F2BD1252900C85D50 /* ViewController.swift in Sources */,
+				4664D8DE2BD2B21700801B9E /* AQIViewModel.swift in Sources */,
+				46B9DB4C2BD3F66D009768D7 /* UIColor.swift in Sources */,
+				4677E2C12BD1639300E820B8 /* AirQualityComponents.swift in Sources */,
+				4677E2BF2BD162FB00E820B8 /* ResponseObject.swift in Sources */,
+				4677E2C72BD16CFD00E820B8 /* AQIHolder.swift in Sources */,
+				46036FB82BD4434200CB812C /* SecondDataCell.swift in Sources */,
+				4677E2BA2BD150A500E820B8 /* Network.swift in Sources */,
+				4677E2B12BD12ADA00E820B8 /* AQIViewController.swift in Sources */,
+				46B9DB4E2BD40148009768D7 /* FirstDataCell.swift in Sources */,
+				4677E2C52BD16C1200E820B8 /* ResponseArray.swift in Sources */,
+				46B9DB4A2BD3F43B009768D7 /* AQIHeaderCell.swift in Sources */,
 				46A20A2B2BD1252900C85D50 /* AppDelegate.swift in Sources */,
-				46A20A2D2BD1252900C85D50 /* SceneDelegate.swift in Sources */,
+				4677E2B52BD12D8000E820B8 /* LocationManager.swift in Sources */,
+				4677E2C32BD16A7D00E820B8 /* ResponseCoordinates.swift in Sources */,
+				4677E2B82BD13BEB00E820B8 /* UITableView+ReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		46A20A302BD1252900C85D50 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				46A20A312BD1252900C85D50 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		46A20A352BD1252A00C85D50 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,9 +389,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AQI/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The AQI app requires access to location information to work";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,9 +416,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AQI/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The AQI app requires access to location information to work";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -361,6 +456,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		46B9DB4F2BD4149C009768D7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		46B9DB502BD4149C009768D7 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46B9DB4F2BD4149C009768D7 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		46B9DB522BD4149C009768D7 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46B9DB4F2BD4149C009768D7 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 46A20A1F2BD1252900C85D50 /* Project object */;
 }
